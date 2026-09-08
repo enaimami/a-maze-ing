@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mazegen"
+dynamic = ["version"]
+description = "Reusable maze generator with a 42 pattern and a solver"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "enaimami" },
+    { name = "ysukonukc" },
+]
+keywords = ["maze", "generator", "labyrinth", "42"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+]
+dependencies = []
+
+[tool.hatch.version]
+path = "mazegen/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mazegen"]
+
+[tool.hatch.build.targets.sdist]
+include = ["mazegen", "README.md", "LICENSE.md", "pyproject.toml"]
