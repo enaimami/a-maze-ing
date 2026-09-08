@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by enaimami, ysukonukc.*
+*This project has been created as part of the 42 curriculum by enaimami, sukonukc.*
 
 # A-Maze-ing
 
@@ -484,7 +484,7 @@ challenge them, to speed up the mechanical parts and to test the result.
 | Member | Responsibility |
 |---|---|
 | enaimami | Generation core: `grid.py`, `generator.py`, `pattern.py`, `solver.py`, `validator.py`. Packaging of `mazegen` and the licence. |
-| ysukonukc | Program layer: `config.py`, `writer.py`, `renderer.py`, `menu.py`, `a_maze_ing.py`. Makefile, tests and documentation. |
+| sukonukc | Program layer: `config.py`, `writer.py`, `renderer.py`, `menu.py`, `a_maze_ing.py`. Makefile, tests and documentation. |
 
 The split follows the boundary the subject already draws between the reusable
 module and the project that uses it, which let us work on the two halves at
